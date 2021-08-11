@@ -1,2 +1,5 @@
 # Project settings folder for IntelliJ IDEs
 .idea/
+
+# Python Notebooks
+.ipynb_checkpoints/
