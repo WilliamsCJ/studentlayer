@@ -1,5 +1,11 @@
 # Project settings folder for IntelliJ IDEs
 .idea/
 
+# macOS specific files
+.DS_Store
+
 # Python Notebooks
 .ipynb_checkpoints/
+
+# Compiled binaries
+studentlayer
