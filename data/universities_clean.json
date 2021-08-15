@@ -141,7 +141,9 @@
       "student.aau.dk",
       "aau.dk"
     ],
-    "alpha_two_code": "DK"
+    "alpha_two_code": [
+      "DK"
+    ]
   },
   {
     "name": "Aalto University",
@@ -356,7 +358,9 @@
       "academyart.edu",
       "art.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Academy of Arts",
@@ -882,7 +886,9 @@
   },
   {
     "name": "Aga Khan University",
-    "domain": "aku.edu",
+    "domain": [
+      "aku.edu"
+    ],
     "alpha_two_code": [
       "GB",
       "KE",
@@ -4191,7 +4197,9 @@
       "gru.edu",
       "augusta.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Augustana College (IL)",
@@ -6692,7 +6700,9 @@
       "blueridge.edu",
       "brcc.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Blue Ridge Community and Technical College",
@@ -6952,7 +6962,9 @@
       "bhtafe.edu.au",
       "boxhill.edu.au"
     ],
-    "alpha_two_code": "AU"
+    "alpha_two_code": [
+      "AU"
+    ]
   },
   {
     "name": "Bozok University",
@@ -7662,7 +7674,9 @@
       "btu.ge",
       "btu.edu.ge"
     ],
-    "alpha_two_code": "GE"
+    "alpha_two_code": [
+      "GE"
+    ]
   },
   {
     "name": "Busitema University",
@@ -8066,7 +8080,9 @@
       "csubak.edu",
       "csub.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "California State University, Chico",
@@ -8092,7 +8108,9 @@
       "csufresno.edu",
       "fresnostate.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "California State University, Fullerton",
@@ -8299,7 +8317,9 @@
       "csmrouen.com",
       "campus-saint-marc.com"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "Can-Tho University",
@@ -8442,7 +8462,9 @@
       "capellauniversity.edu",
       "capella.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Capilano College",
@@ -8513,7 +8535,9 @@
       "cardiff.ac.uk",
       "cf.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Cardinal Stefan Wyszynski University in Warsaw",
@@ -8575,7 +8599,9 @@
       "uni-oldenburg.de",
       "uol.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Carleton College",
@@ -9762,7 +9788,9 @@
       "ieec.cust.edu.cn",
       "cust.edu.cn"
     ],
-    "alpha_two_code": "CN"
+    "alpha_two_code": [
+      "CN"
+    ]
   },
   {
     "name": "Changchun University of Technology",
@@ -10382,7 +10410,9 @@
       "chinju-e.ac.kr",
       "cue.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Chippewa Valley Technical College",
@@ -10408,7 +10438,9 @@
       "chodang.ac.kr",
       "cdu.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Chonbuk National University",
@@ -10596,7 +10628,9 @@
       "jnu.ac.kr",
       "chonnam.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Chosun University",
@@ -10829,7 +10863,9 @@
       "chungbuk.ac.kr",
       "cbnu.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Chungnam National University",
@@ -10837,7 +10873,9 @@
       "chungnam.ac.kr",
       "cnu.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Chungwoon University",
@@ -11511,7 +11549,9 @@
       "cod.edu",
       "dupage.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "College of Dunaujvaros",
@@ -12014,7 +12054,9 @@
       "coloradotech.edu",
       "ctuonline.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Columbia Basin College",
@@ -12869,7 +12911,9 @@
       "cvut.cz",
       "fa.cvut.cz"
     ],
-    "alpha_two_code": "CZ"
+    "alpha_two_code": [
+      "CZ"
+    ]
   },
   {
     "name": "Czech University of Agriculture Prague",
@@ -13084,7 +13128,9 @@
       "diu.edu.bd",
       "daffodilvarsity.edu.bd"
     ],
-    "alpha_two_code": "BD"
+    "alpha_two_code": [
+      "BD"
+    ]
   },
   {
     "name": "Dagestan State University",
@@ -13857,7 +13903,9 @@
       "student.tudelft.nl",
       "tudelft.nl"
     ],
-    "alpha_two_code": "NL"
+    "alpha_two_code": [
+      "NL"
+    ]
   },
   {
     "name": "Delgado Community College",
@@ -14423,7 +14471,9 @@
       "dongguk.ac.kr",
       "dongguk.edu"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Donghua University, Shanghai",
@@ -14449,7 +14499,9 @@
       "dsu.ac.kr",
       "dongshinu.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Dongyang University",
@@ -14673,7 +14725,9 @@
       "dhbw-mannheim.de",
       "mannheim.dhbw.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Duale Hochschule Baden-Württemberg",
@@ -14717,7 +14771,9 @@
       "karlsruhe.dhbw.de",
       "dhbw-karlsruhe.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Duale Hochschule Baden-Württemberg Lörrach",
@@ -14734,7 +14790,9 @@
       "dhbw-mosbach.de",
       "mosbach.dhbw.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Duale Hochschule Baden-Württemberg Mosbach / Bad Mergentheim",
@@ -14742,7 +14800,9 @@
       "dhbw-mosbach.de",
       "mosbach.dhbw.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Duale Hochschule Baden-Württemberg Ravensburg",
@@ -14858,7 +14918,9 @@
       "dumlupinar.edu.tr",
       "dpu.edu.tr"
     ],
-    "alpha_two_code": "TR"
+    "alpha_two_code": [
+      "TR"
+    ]
   },
   {
     "name": "Dunya Institute of Higher Education",
@@ -15037,7 +15099,9 @@
       "epfl.edu",
       "epfl.ch"
     ],
-    "alpha_two_code": "CH"
+    "alpha_two_code": [
+      "CH"
+    ]
   },
   {
     "name": "ESME Sudria",
@@ -15054,7 +15118,9 @@
       "eth.edu",
       "ethz.ch"
     ],
-    "alpha_two_code": "CH"
+    "alpha_two_code": [
+      "CH"
+    ]
   },
   {
     "name": "EUCLID University",
@@ -15945,7 +16011,9 @@
       "ensm-ales.fr",
       "mines-ales.org"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "Ecole Nationale Supérieure des Mines de Douai",
@@ -16736,7 +16804,9 @@
       "epitech.eu",
       "epitech.net"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "Ecole pour l'Informatique et les nouvelles Technologies - Albania",
@@ -19048,7 +19118,9 @@
       "fanshaweonline.ca",
       "fanshawec.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "Far East State Transport University",
@@ -21180,7 +21252,9 @@
       "gcal.ac.uk",
       "gcu.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Glasgow School of Art",
@@ -21188,7 +21262,9 @@
       "student.gsa.ac.uk",
       "gsa.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Glen Oaks Community College",
@@ -21205,7 +21281,9 @@
       "glendale.edu",
       "gccaz.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Glion Institute of Higher Education",
@@ -21717,7 +21795,9 @@
       "esc-grenoble.fr",
       "grenoble-em.com"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "Gretsa Universtiy",
@@ -22256,7 +22336,9 @@
       "gnu.ac.kr",
       "gsnu.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Győr Jedlik Ányos Mechanical Engineering and Informatics Technical School",
@@ -22264,7 +22346,9 @@
       "students.jedlik.eu",
       "jedlik.eu"
     ],
-    "alpha_two_code": "HU"
+    "alpha_two_code": [
+      "HU"
+    ]
   },
   {
     "name": "Göteborg University",
@@ -22353,7 +22437,9 @@
       "edu.htl-villach.at",
       "htl-villach.at"
     ],
-    "alpha_two_code": "AT"
+    "alpha_two_code": [
+      "AT"
+    ]
   },
   {
     "name": "HTL WELS",
@@ -22406,7 +22492,9 @@
       "hun.edu.tr",
       "hacettepe.edu.tr"
     ],
-    "alpha_two_code": "TR"
+    "alpha_two_code": [
+      "TR"
+    ]
   },
   {
     "name": "Hachinohe Institute of Technology",
@@ -22639,7 +22727,9 @@
       "hamdard.edu",
       "hamdard.edu.pk"
     ],
-    "alpha_two_code": "PK"
+    "alpha_two_code": [
+      "PK"
+    ]
   },
   {
     "name": "Hamilton College",
@@ -22917,7 +23007,9 @@
       "hs.ac.kr",
       "hanshin.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Hansung University Seoul",
@@ -23672,7 +23764,9 @@
       "herzen.spb.ru",
       "herzen.edu.ru"
     ],
-    "alpha_two_code": "RU"
+    "alpha_two_code": [
+      "RU"
+    ]
   },
   {
     "name": "Hesston College",
@@ -23833,7 +23927,9 @@
       "highlandcc.edu",
       "highland.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Highline Community College",
@@ -24228,7 +24324,9 @@
       "student.hs-anhalt.de",
       "hs-anhalt.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Hochschule Bonn-Rhein-Sieg",
@@ -24236,7 +24334,9 @@
       "h-brs.de",
       "hochschule-bonn-rhein-sieg.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Hochschule Bremen",
@@ -24307,7 +24407,9 @@
       "stud.hs-hannover.de",
       "hs-hannover.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Hochschule Harz, Hochschule für angewandte Wissenschaften (FH)",
@@ -24459,7 +24561,9 @@
       "htw-berlin.de",
       "fhtw-berlin.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Hochschule für Technik und Wirtschaft Dresden (FH)",
@@ -24557,7 +24661,9 @@
       "hr.nl",
       "hro.nl"
     ],
-    "alpha_two_code": "NL"
+    "alpha_two_code": [
+      "NL"
+    ]
   },
   {
     "name": "Hogeschool Utrecht",
@@ -25204,7 +25310,9 @@
       "humbermail.ca",
       "humber.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "Humboldt State University",
@@ -25392,7 +25500,9 @@
       "hyupsung.ac.kr",
       "uhs.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "I-Shou University",
@@ -25589,7 +25699,9 @@
       "iscte-iul.pt",
       "iscte.pt"
     ],
-    "alpha_two_code": "PT"
+    "alpha_two_code": [
+      "PT"
+    ]
   },
   {
     "name": "ISFORT - Institut de Formation en Technologie Alimentaire",
@@ -25616,7 +25728,9 @@
       "ifmo.ru",
       "itmo.ru"
     ],
-    "alpha_two_code": "RU"
+    "alpha_two_code": [
+      "RU"
+    ]
   },
   {
     "name": "ITT Technical Institute",
@@ -25624,7 +25738,9 @@
       "itt-tech.info",
       "itt-tech.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Iact College",
@@ -25830,7 +25946,9 @@
       "illinoisstate.edu",
       "ilstu.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Illinois Valley Community College",
@@ -25901,7 +26019,9 @@
       "imperial.ac.uk",
       "ic.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Imperial College School of Medicine",
@@ -26098,7 +26218,9 @@
       "iitg.ernet.in",
       "iitg.ac.in"
     ],
-    "alpha_two_code": "IN"
+    "alpha_two_code": [
+      "IN"
+    ]
   },
   {
     "name": "Indian Institute of Technology, Hyderabad",
@@ -26241,7 +26363,9 @@
       "indianatech.edu",
       "indianatech.net"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Indiana State University",
@@ -26276,7 +26400,9 @@
       "indiana.edu",
       "iub.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Indiana University at South Bend",
@@ -26941,7 +27067,9 @@
       "grenoble-inp.fr",
       "inpg.fr"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "Institut polytechnique des sciences avancees",
@@ -27472,7 +27600,9 @@
       "al.infnet.edu.br",
       "prof.infnet.edu.br"
     ],
-    "alpha_two_code": "BR"
+    "alpha_two_code": [
+      "BR"
+    ]
   },
   {
     "name": "Instituto Mauá de Tecnologia",
@@ -27597,7 +27727,9 @@
       "my.ipleiria.pt",
       "ipleiria.pt"
     ],
-    "alpha_two_code": "PT"
+    "alpha_two_code": [
+      "PT"
+    ]
   },
   {
     "name": "Instituto Politécnico de Lisboa",
@@ -30458,7 +30590,9 @@
       "jeonju.ac.kr",
       "jj.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Jerash Private University",
@@ -30809,7 +30943,9 @@
       "jhu.edu",
       "johnshopkins.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Johns Hopkins University Applied Physics Laboratory",
@@ -32419,7 +32555,9 @@
       "keimyung.ac.kr",
       "kmu.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Keio University",
@@ -33606,7 +33744,9 @@
       "kyongju.ac.kr",
       "kongju.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Kongju National University of Education",
@@ -33668,7 +33808,9 @@
       "kaist.ac.kr",
       "kaist.edu"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Korea Aerospace University",
@@ -33748,7 +33890,9 @@
       "knua.ac.kr",
       "karts.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Korea National University of Cultural Heritage",
@@ -34368,7 +34512,9 @@
       "gwangju.ac.kr",
       "kwangju.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Kwangju Women's University",
@@ -34394,7 +34540,9 @@
       "kw.ac.kr",
       "kwangwoon.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Kwansei Gakuin University",
@@ -34717,7 +34865,9 @@
       "kyungil.ac.kr",
       "kiu.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Kyungnam University",
@@ -34743,7 +34893,9 @@
       "kyungsung.ac.kr",
       "ks.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Kyungwon University",
@@ -35066,7 +35218,9 @@
       "lamk.fi",
       "student.lamk.fi"
     ],
-    "alpha_two_code": "FI"
+    "alpha_two_code": [
+      "FI"
+    ]
   },
   {
     "name": "Laikipia University",
@@ -35254,7 +35408,9 @@
       "mylambton.ca",
       "lambtoncollege.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "Lampang College of Commerce and Technology",
@@ -35334,7 +35490,9 @@
       "langara.bc.ca",
       "langara.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "Langston University",
@@ -35396,7 +35554,9 @@
       "student.lut.fi",
       "lut.fi"
     ],
-    "alpha_two_code": "FI"
+    "alpha_two_code": [
+      "FI"
+    ]
   },
   {
     "name": "Laramie County Community College",
@@ -35512,7 +35672,9 @@
       "student.laurea.fi",
       "laurea.fi"
     ],
-    "alpha_two_code": "FI"
+    "alpha_two_code": [
+      "FI"
+    ]
   },
   {
     "name": "Laurentian University of Sudbury",
@@ -36186,7 +36348,9 @@
       "lockhaven.edu",
       "lhup.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Logistics Engineering University of PLA",
@@ -36482,7 +36646,9 @@
       "student.lboro.ac.uk",
       "lboro.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Louisburg College",
@@ -36607,7 +36773,9 @@
       "lmu.de",
       "uni-muenchen.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Ludwik Solski State Academy of Theatre in Cracow",
@@ -37416,7 +37584,9 @@
       "mccnh.edu",
       "mcc.commnet.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Mandalay Technological University",
@@ -37910,7 +38080,9 @@
       "massasoit.edu",
       "massasoit.mass.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Massey University",
@@ -38351,7 +38523,9 @@
       "megatrend-edu.net",
       "xz.edu.rs"
     ],
-    "alpha_two_code": "RS"
+    "alpha_two_code": [
+      "RS"
+    ]
   },
   {
     "name": "Mehmet Akif Ersoy University",
@@ -38575,7 +38749,9 @@
       "mercymavericks.edu",
       "mercy.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Mercyhurst College",
@@ -38664,7 +38840,9 @@
       "mesacc.edu",
       "maricopa.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Mesabi Range Community and Technical College",
@@ -38906,7 +39084,9 @@
       "mbro.ac.uk",
       "middlesbro.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Middlesex Community College",
@@ -38914,7 +39094,9 @@
       "middlesex.mass.edu",
       "mxcc.commnet.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Middlesex County College",
@@ -39786,7 +39968,9 @@
       "monash.edu",
       "monash.edu.au"
     ],
-    "alpha_two_code": "AU"
+    "alpha_two_code": [
+      "AU"
+    ]
   },
   {
     "name": "Monash University, Malaysia Campus",
@@ -39803,7 +39987,9 @@
       "mundragon.edu",
       "muni.es"
     ],
-    "alpha_two_code": "ES"
+    "alpha_two_code": [
+      "ES"
+    ]
   },
   {
     "name": "Mongolian National University",
@@ -40126,7 +40312,9 @@
       "phystech.edu",
       "mipt.ru"
     ],
-    "alpha_two_code": "RU"
+    "alpha_two_code": [
+      "RU"
+    ]
   },
   {
     "name": "Moscow International Higher Business School (MIRBIS)",
@@ -40341,7 +40529,9 @@
       "synergy.university",
       "synergy.ru"
     ],
-    "alpha_two_code": "RU"
+    "alpha_two_code": [
+      "RU"
+    ]
   },
   {
     "name": "Moshi University College of Cooperative and Business Studies",
@@ -40664,7 +40854,9 @@
       "student.murdoch.edu.au",
       "murdoch.edu.au"
     ],
-    "alpha_two_code": "AU"
+    "alpha_two_code": [
+      "AU"
+    ]
   },
   {
     "name": "Murmansk State Technical University",
@@ -40924,7 +41116,9 @@
       "myongji.ac.kr",
       "mju.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Mzumbe University (Chuo Kikuu Mzumbe)",
@@ -42552,7 +42746,9 @@
       "ntust.edu.tw",
       "gapps.ntust.edu.tw"
     ],
-    "alpha_two_code": "TW"
+    "alpha_two_code": [
+      "TW"
+    ]
   },
   {
     "name": "National Taras Shevchenko University of Kiev",
@@ -42704,7 +42900,9 @@
       "ucg.ie",
       "nuigalway.ie"
     ],
-    "alpha_two_code": "IE"
+    "alpha_two_code": [
+      "IE"
+    ]
   },
   {
     "name": "National University of Ireland, Maynooth",
@@ -42838,7 +43036,9 @@
       "nus.edu",
       "nus.edu.sg"
     ],
-    "alpha_two_code": "SG"
+    "alpha_two_code": [
+      "SG"
+    ]
   },
   {
     "name": "National University of Theater and Film Arts",
@@ -43026,7 +43226,9 @@
       "nmmu.ac.za",
       "mandela.ac.za"
     ],
-    "alpha_two_code": "ZA"
+    "alpha_two_code": [
+      "ZA"
+    ]
   },
   {
     "name": "Neosho County Community College",
@@ -44132,7 +44334,9 @@
       "uniwest.ac.za",
       "nwu.ac.za"
     ],
-    "alpha_two_code": "ZA"
+    "alpha_two_code": [
+      "ZA"
+    ]
   },
   {
     "name": "NorthCap University",
@@ -44320,7 +44524,9 @@
       "neu.edu",
       "northeastern.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Northeastern University",
@@ -44373,7 +44579,9 @@
       "necc.mass.edu",
       "necc.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Northern Illinois University",
@@ -44975,7 +45183,9 @@
       "nsu.ru",
       "g.nsu.ru"
     ],
-    "alpha_two_code": "RU"
+    "alpha_two_code": [
+      "RU"
+    ]
   },
   {
     "name": "Nuclear Institute for Agriculture and Biology (NIAB)",
@@ -45703,7 +45913,9 @@
       "ontariotechu.ca",
       "ontariotechu.net"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "Open International University for Alternative Medicines",
@@ -47799,7 +48011,9 @@
       "postech.edu",
       "postech.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Point Park University",
@@ -49283,7 +49497,9 @@
       "qmw.ac.uk",
       "qmul.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Queen's University",
@@ -50623,7 +50839,9 @@
       "network.rca.ac.uk",
       "rca.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Royal College of Music, University of London",
@@ -50713,7 +50931,9 @@
       "rhbnc.ac.uk",
       "rh.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "Royal Melbourne Institute of Technology",
@@ -51144,7 +51364,9 @@
       "sabanciuniv.edu.tr",
       "sabanciuniv.edu"
     ],
-    "alpha_two_code": "TR"
+    "alpha_two_code": [
+      "TR"
+    ]
   },
   {
     "name": "Sabaragamuwa University of Sri Lanka",
@@ -52367,7 +52589,9 @@
       "scad.edu",
       "student.scad.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Savannah Technical College",
@@ -52906,7 +53130,9 @@
       "senecacollege.ca",
       "myseneca.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "Senshu University",
@@ -52932,7 +53158,9 @@
       "seokyeong.ac.kr",
       "skuniv.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Seonam University",
@@ -52994,7 +53222,9 @@
       "snue.ac.kr",
       "seoul-e.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Seoul National University of Science and Technology",
@@ -54397,7 +54627,9 @@
       "polsl.gliwice.pl",
       "polsl.pl"
     ],
-    "alpha_two_code": "PL"
+    "alpha_two_code": [
+      "PL"
+    ]
   },
   {
     "name": "Silesian University",
@@ -54936,7 +55168,9 @@
       "ssu.ac.kr",
       "soongsil.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Sophia University",
@@ -55331,7 +55565,9 @@
       "sccnc.edu",
       "scciowa.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Southeastern Illinois College",
@@ -55816,7 +56052,9 @@
       "southwesterncc.edu",
       "swcciowa.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Southwestern Illinois College",
@@ -56239,7 +56477,9 @@
       "myscc.ca",
       "stclairc.on.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "St. Clair County Community College",
@@ -56418,7 +56658,9 @@
       "smu.ca",
       "stmarys.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "St. Matthews University",
@@ -56761,7 +57003,9 @@
       "students.finki.ukim.mk",
       "ukim.edu.mk"
     ],
-    "alpha_two_code": "MK"
+    "alpha_two_code": [
+      "MK"
+    ]
   },
   {
     "name": "St.James's School of Medicine, Bonaire",
@@ -57561,7 +57805,9 @@
       "scnu.ac.kr",
       "sunchon.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Sung Kyun Kwan University",
@@ -59234,7 +59480,9 @@
       "tum.de",
       "tum.edu"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Technische Universität Wien",
@@ -60412,7 +60660,9 @@
       "tesc.edu",
       "tesu.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Thomas Jefferson University",
@@ -60456,7 +60706,9 @@
       "trcc.commnet.edu",
       "trcc.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Thunderbird School of Global Management",
@@ -61292,7 +61544,9 @@
       "torrens.edu.au",
       "tua.edu.au"
     ],
-    "alpha_two_code": "AU"
+    "alpha_two_code": [
+      "AU"
+    ]
   },
   {
     "name": "Tottori University",
@@ -62452,7 +62706,9 @@
       "usafa.af.mil",
       "usafa.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "United States Coast Guard Academy",
@@ -64728,7 +64984,9 @@
       "ui1.es",
       "alumnos.ui1.es"
     ],
-    "alpha_two_code": "ES"
+    "alpha_two_code": [
+      "ES"
+    ]
   },
   {
     "name": "Universidad Internacional Menéndez Pelayo",
@@ -68642,7 +68900,9 @@
       "usap.edu",
       "usps.edu.hn"
     ],
-    "alpha_two_code": "HN"
+    "alpha_two_code": [
+      "HN"
+    ]
   },
   {
     "name": "Universidad de Santiago de Chile",
@@ -69136,7 +69396,9 @@
       "ehu.eus",
       "ehu.es"
     ],
-    "alpha_two_code": "ES"
+    "alpha_two_code": [
+      "ES"
+    ]
   },
   {
     "name": "Universidad del Quindío",
@@ -69792,7 +70054,9 @@
       "ufmg.br",
       "dcc.ufmg.br"
     ],
-    "alpha_two_code": "BR"
+    "alpha_two_code": [
+      "BR"
+    ]
   },
   {
     "name": "Universidade Federal de Ouro Preto",
@@ -70592,7 +70856,9 @@
       "ul.pt",
       "campus.ul.pt"
     ],
-    "alpha_two_code": "PT"
+    "alpha_two_code": [
+      "PT"
+    ]
   },
   {
     "name": "Universidade de Marília",
@@ -72301,7 +72567,9 @@
       "uoc.es",
       "uoc.edu"
     ],
-    "alpha_two_code": "ES"
+    "alpha_two_code": [
+      "ES"
+    ]
   },
   {
     "name": "Universitat Pompeu Fabra",
@@ -72309,7 +72577,9 @@
       "upf.es",
       "upf.edu"
     ],
-    "alpha_two_code": "ES"
+    "alpha_two_code": [
+      "ES"
+    ]
   },
   {
     "name": "Universitat Rovira I Virgili Tarragona",
@@ -72425,7 +72695,9 @@
       "ugent.be",
       "rug.ac.be"
     ],
-    "alpha_two_code": "BE"
+    "alpha_two_code": [
+      "BE"
+    ]
   },
   {
     "name": "Universiti Darul Iman",
@@ -73117,7 +73389,9 @@
       "aberdeen.ac.uk",
       "abdn.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "University of Abertay Dundee",
@@ -73638,7 +73912,9 @@
       "auckland.ac.nz",
       "aucklanduni.ac.nz"
     ],
-    "alpha_two_code": "NZ"
+    "alpha_two_code": [
+      "NZ"
+    ]
   },
   {
     "name": "University of Aviation and Technology",
@@ -74213,7 +74489,9 @@
       "uct.ac.za",
       "myuct.ac.za"
     ],
-    "alpha_two_code": "ZA"
+    "alpha_two_code": [
+      "ZA"
+    ]
   },
   {
     "name": "University of Cassino",
@@ -74896,7 +75174,9 @@
       "sx.ac.uk",
       "essex.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "University of Evansville",
@@ -75206,7 +75486,9 @@
   },
   {
     "name": "University of Guam",
-    "domain": "uog.edu",
+    "domain": [
+      "uog.edu"
+    ],
     "alpha_two_code": [
       "US",
       "GU"
@@ -75524,7 +75806,9 @@
       "uiuc.edu",
       "illinois.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of Ilorin",
@@ -76370,7 +76654,9 @@
       "man.ac.uk",
       "mbs.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "University of Manila",
@@ -76504,7 +76790,9 @@
       "student.uml.edu",
       "uml.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of Mauritius",
@@ -77232,7 +77520,9 @@
       "ad.unc.edu",
       "unc.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of North Carolina at Charlotte",
@@ -77312,7 +77602,9 @@
       "unthsc.edu",
       "hsc.unt.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of NorthWest",
@@ -77581,7 +77873,9 @@
       "ox.ac.uk",
       "oxford.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "University of Padua",
@@ -77706,7 +78000,9 @@
       "upenn.edu",
       "seas.upenn.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of Peradeniya",
@@ -77840,7 +78136,9 @@
       "upmc.com",
       "upmc.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of Pittsburgh at Bradford",
@@ -78829,7 +79127,9 @@
       "st-and.ac.uk",
       "st-andrews.ac.uk"
     ],
-    "alpha_two_code": "GB"
+    "alpha_two_code": [
+      "GB"
+    ]
   },
   {
     "name": "University of St. Jerome's College",
@@ -78964,7 +79264,9 @@
       "uni.sydney.edu.au",
       "usyd.edu.au"
     ],
-    "alpha_two_code": "AU"
+    "alpha_two_code": [
+      "AU"
+    ]
   },
   {
     "name": "University of Szczecin",
@@ -79089,7 +79391,9 @@
       "student.uts.edu.au",
       "uts.edu.au"
     ],
-    "alpha_two_code": "AU"
+    "alpha_two_code": [
+      "AU"
+    ]
   },
   {
     "name": "University of Technology and Life Sciences",
@@ -79196,7 +79500,9 @@
       "utsouthwestern.edu",
       "swmed.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of Texas at Arlington",
@@ -79231,7 +79537,9 @@
       "utd.edu",
       "utdallas.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of Texas at El Paso",
@@ -79698,7 +80006,9 @@
       "washington.edu",
       "uw.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of Wassit",
@@ -80210,7 +80520,9 @@
       "ufs.ac.za",
       "uovs.ac.za"
     ],
-    "alpha_two_code": "ZA"
+    "alpha_two_code": [
+      "ZA"
+    ]
   },
   {
     "name": "University of the Gambia",
@@ -80245,7 +80557,9 @@
       "uiwtx.edu",
       "uiw.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of the Netherlands Antilles, Curacao",
@@ -80271,7 +80585,9 @@
       "uop.edu",
       "pacific.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "University of the People",
@@ -80392,7 +80708,9 @@
   },
   {
     "name": "University of the South Pacific",
-    "domain": "usp.ac.fj",
+    "domain": [
+      "usp.ac.fj"
+    ],
     "alpha_two_code": [
       "SB",
       "FJ"
@@ -80445,7 +80763,9 @@
   },
   {
     "name": "University of the Virgin Islands",
-    "domain": "uvi.edu",
+    "domain": [
+      "uvi.edu"
+    ],
     "alpha_two_code": [
       "US",
       "VG"
@@ -81259,7 +81579,9 @@
       "univ-grenoble-alpes.fr",
       "u-grenoble3.fr"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "Université Hassan II - Aïn Chock",
@@ -81592,7 +81914,9 @@
       "univ-mlv.fr",
       "u-pem.fr"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "Université Paris-Sorbonne (Paris IV)",
@@ -82685,7 +83009,9 @@
   },
   {
     "name": "Université des Antilles et de la Guyane",
-    "domain": "univ-ag.fr",
+    "domain": [
+      "univ-ag.fr"
+    ],
     "alpha_two_code": [
       "GF",
       "MQ",
@@ -84323,7 +84649,9 @@
   },
   {
     "name": "Warnborough University",
-    "domain": "warnborough.edu",
+    "domain": [
+      "warnborough.edu"
+    ],
     "alpha_two_code": [
       "GB",
       "IE"
@@ -85253,7 +85581,9 @@
       "uni-muenster.de",
       "wwu.de"
     ],
-    "alpha_two_code": "DE"
+    "alpha_two_code": [
+      "DE"
+    ]
   },
   {
     "name": "Westhill University",
@@ -85270,7 +85600,9 @@
       "westminster-mo.edu",
       "westminster.edu"
     ],
-    "alpha_two_code": "US"
+    "alpha_two_code": [
+      "US"
+    ]
   },
   {
     "name": "Westminster College of Salt Lake City",
@@ -85458,7 +85790,9 @@
       "wlu.ca",
       "mylaurier.ca"
     ],
-    "alpha_two_code": "CA"
+    "alpha_two_code": [
+      "CA"
+    ]
   },
   {
     "name": "Wilkes Community College",
@@ -85673,7 +86007,9 @@
       "wu.ac.at",
       "wu-wien.ac.at"
     ],
-    "alpha_two_code": "AT"
+    "alpha_two_code": [
+      "AT"
+    ]
   },
   {
     "name": "Wisconsin Indianhead Technical College",
@@ -85789,7 +86125,9 @@
       "wku.ac.kr",
       "wonkwang.ac.kr"
     ],
-    "alpha_two_code": "KR"
+    "alpha_two_code": [
+      "KR"
+    ]
   },
   {
     "name": "Woodbury University",
@@ -86113,7 +86451,9 @@
       "stu.xhu.edu.cn",
       "mail.xhu.edu.cn"
     ],
-    "alpha_two_code": "CN"
+    "alpha_two_code": [
+      "CN"
+    ]
   },
   {
     "name": "Xijiang University",
@@ -87327,7 +87667,9 @@
       "polytechnique.fr",
       "polytechnique.edu"
     ],
-    "alpha_two_code": "FR"
+    "alpha_two_code": [
+      "FR"
+    ]
   },
   {
     "name": "École Polytechnique de Montréal, Université de Montréal",
