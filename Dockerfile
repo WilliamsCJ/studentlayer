@@ -10,6 +10,7 @@ RUN go mod download
 
 # Copy go program files and build binary
 COPY *.go ./
+COPY data/universities_clean.json ./
 RUN go build -o /studentlayer
 EXPOSE 8080
 
