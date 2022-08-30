@@ -25,7 +25,7 @@ jobs:
                 "text": "A new production deployment was created.",
                 "attachments": [
                   {
-                    "color": "{{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
+                    "color": "${{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
                     "blocks": [
                       {
                         "type": "section",
