@@ -1,0 +1,60 @@
+name: Deploy to Fly.io
+on: [push]
+  # push:
+  #   branches:
+  #     - main
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+jobs:
+  deploy:
+      name: Deploy app
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - uses: superfly/flyctl-actions/setup-flyctl@master
+        - run: flyctl deploy --remote-only
+  notify:
+    name: Notify in Slack
+    runs-on: ubuntu-latest
+    uses: slackapi/slack-github-action@v1.21.0
+    with:
+      channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+      env:
+        COLOUR: ${{ job.status == 'success' && '#22bb33' || '#bb2124' }}
+      payload: |
+        {
+          "attachments": [
+            {
+              "color": "$COLOUR",
+              "blocks": [
+                {
+                  "type": "section",
+                  "text": {
+                    "text": "A new production deployment has been created.",
+                    "type": "mrkdwn"
+                  },
+                  "fields": [
+                    {
+                      "type": "mrkdwn",
+                      "text": "*Status*"
+                    },
+                    {
+                      "type": "plain_text",
+                      "text": " "
+                    },
+                    {
+                      "type": "plain_text",
+                      "text": "{{ job.status }}"
+                    },
+                    {
+                      "type": "plain_text",
+                      "text": " "
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+  env:
+    SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
