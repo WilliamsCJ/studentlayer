@@ -22,9 +22,17 @@ jobs:
             channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
             payload: |
               {
+                "blocks": [
+                  {
+                    "type": "section",
+                    "text": {
+                      "type": "mrkdwn",
+                      "text": A new production deployment was created."
+                    }
+                  }
+                ]
                 "attachments": [
                   {
-                    "pretext": "A new production deployment was created.",
                     "color": "{{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
                     "blocks": [
                       {
