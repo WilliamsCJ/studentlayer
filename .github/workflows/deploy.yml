@@ -25,8 +25,6 @@ jobs:
                 "text": "A new production deployment was created.",
                 "attachments": [
                   {
-                    "mrkdwn_in": ["text"],
-                    "pretext": "A new production deployment was created.",
                     "color": "{{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
                     "blocks": [
                       {
