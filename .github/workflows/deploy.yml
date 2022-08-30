@@ -3,6 +3,8 @@ on: [push]
   # push:
   #   branches:
   #     - main
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 jobs:
   deploy:
       name: Deploy app
@@ -10,10 +12,10 @@ jobs:
       steps:
         - uses: actions/checkout@v2
         - uses: superfly/flyctl-actions/setup-flyctl@master
-          env:
-            FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
         - run: flyctl deploy --remote-only
-        - uses: slackapi/slack-github-action@v1.21.0
+        - name: Send Slack Notification
+          if: always()
+          uses: slackapi/slack-github-action@v1.21.0
           env:
             COLOUR: ${{ job.status == 'success' && '#22bb33' || '#bb2124' }}
             SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
