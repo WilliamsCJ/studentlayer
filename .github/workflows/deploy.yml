@@ -15,47 +15,46 @@ jobs:
         - run: flyctl deploy --remote-only
   notify:
     name: Notify in Slack
-    runs-on: ubuntu-latest
     steps:
       - uses: slackapi/slack-github-action@v1.21.0
-      - with:
-        channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+        with:
+          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+          env:
+            COLOUR: ${{ job.status == 'success' && '#22bb33' || '#bb2124' }}
+          payload: |
+            {
+              "attachments": [
+                {
+                  "color": "$COLOUR",
+                  "blocks": [
+                    {
+                      "type": "section",
+                      "text": {
+                        "text": "A new production deployment has been created.",
+                        "type": "mrkdwn"
+                      },
+                      "fields": [
+                        {
+                          "type": "mrkdwn",
+                          "text": "*Status*"
+                        },
+                        {
+                          "type": "plain_text",
+                          "text": " "
+                        },
+                        {
+                          "type": "plain_text",
+                          "text": "{{ job.status }}"
+                        },
+                        {
+                          "type": "plain_text",
+                          "text": " "
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
         env:
-          COLOUR: ${{ job.status == 'success' && '#22bb33' || '#bb2124' }}
-        payload: |
-          {
-            "attachments": [
-              {
-                "color": "$COLOUR",
-                "blocks": [
-                  {
-                    "type": "section",
-                    "text": {
-                      "text": "A new production deployment has been created.",
-                      "type": "mrkdwn"
-                    },
-                    "fields": [
-                      {
-                        "type": "mrkdwn",
-                        "text": "*Status*"
-                      },
-                      {
-                        "type": "plain_text",
-                        "text": " "
-                      },
-                      {
-                        "type": "plain_text",
-                        "text": "{{ job.status }}"
-                      },
-                      {
-                        "type": "plain_text",
-                        "text": " "
-                      }
-                    ]
-                  }
-                ]
-              }
-            ]
-          }
-      - env:
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
