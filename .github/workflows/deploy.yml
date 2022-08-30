@@ -20,7 +20,8 @@ jobs:
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
           env:
-            COLOUR: ${{ job.status == 'success' && '#22bb33' || '#bb2124' }}
+            SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+            COLOUR: ${{ jobs.deploy.result == 'success' && '#22bb33' || '#bb2124' }}
           payload: |
             {
               "attachments": [
@@ -56,5 +57,3 @@ jobs:
                 }
               ]
             }
-        env:
-          SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
