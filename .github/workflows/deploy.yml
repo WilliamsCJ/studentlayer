@@ -44,7 +44,7 @@ jobs:
                           },
                           {
                             "type": "plain_text",
-                            "text": "{{ job.status }}"
+                            "text": "${{ job.status }}"
                           },
                           {
                             "type": "plain_text",
