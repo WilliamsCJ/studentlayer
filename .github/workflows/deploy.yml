@@ -3,25 +3,25 @@ on: [push]
   # push:
   #   branches:
   #     - main
-env:
-  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-  COLOUR: ${{ jobs.deploy.result == 'success' && '#22bb33' || '#bb2124' }}
 jobs:
   deploy:
       name: Deploy app
       runs-on: ubuntu-latest
+      env:
+        FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
       steps:
         - uses: actions/checkout@v2
         - uses: superfly/flyctl-actions/setup-flyctl@master
         - run: flyctl deploy --remote-only
   notify:
     name: Notify in Slack
+    env:
+      COLOUR: ${{ jobs.deploy.result == 'success' && '#22bb33' || '#bb2124' }}
+      SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
     steps:
       - uses: slackapi/slack-github-action@v1.21.0
         with:
           channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          env:
-            SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           payload: |
             {
               "attachments": [
