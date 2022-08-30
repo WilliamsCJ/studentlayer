@@ -7,49 +7,50 @@ jobs:
   deploy:
       name: Deploy app
       runs-on: ubuntu-latest
-      env:
-        FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
-        COLOUR: ${{ job.status == 'success' && '#22bb33' || '#bb2124' }}
-        SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
       steps:
         - uses: actions/checkout@v2
         - uses: superfly/flyctl-actions/setup-flyctl@master
+          env:
+            FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
         - run: flyctl deploy --remote-only
         - uses: slackapi/slack-github-action@v1.21.0
-        with:
-          channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
-          payload: |
-            {
-              "attachments": [
-                {
-                  "color": "$COLOUR",
-                  "blocks": [
-                    {
-                      "type": "section",
-                      "text": {
-                        "text": "A new production deployment has been created.",
-                        "type": "mrkdwn"
-                      },
-                      "fields": [
-                        {
-                          "type": "mrkdwn",
-                          "text": "*Status*"
+          env:
+            COLOUR: ${{ job.status == 'success' && '#22bb33' || '#bb2124' }}
+            SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          with:
+            channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+            payload: |
+              {
+                "attachments": [
+                  {
+                    "color": "$COLOUR",
+                    "blocks": [
+                      {
+                        "type": "section",
+                        "text": {
+                          "text": "A new production deployment has been created.",
+                          "type": "mrkdwn"
                         },
-                        {
-                          "type": "plain_text",
-                          "text": " "
-                        },
-                        {
-                          "type": "plain_text",
-                          "text": "{{ job.status }}"
-                        },
-                        {
-                          "type": "plain_text",
-                          "text": " "
-                        }
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
+                        "fields": [
+                          {
+                            "type": "mrkdwn",
+                            "text": "*Status*"
+                          },
+                          {
+                            "type": "plain_text",
+                            "text": " "
+                          },
+                          {
+                            "type": "plain_text",
+                            "text": "{{ job.status }}"
+                          },
+                          {
+                            "type": "plain_text",
+                            "text": " "
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
