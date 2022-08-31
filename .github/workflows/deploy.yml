@@ -61,7 +61,7 @@ jobs:
                           },
                           {
                             "type": "mrkdwn",
-                            "text": "${BRANCH_DETAILS}"
+                            "text": "${{ env.BRANCH_DETAILS }}"
                           }
                         ]
                       },
