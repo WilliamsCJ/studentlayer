@@ -1,8 +1,8 @@
 name: Deploy to Fly.io
-on: [push]
-  # push:
-  #   branches:
-  #     - main
+on:
+  push:
+    branches:
+      - main
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 jobs:
@@ -22,7 +22,7 @@ jobs:
             channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
             payload: |
               {
-                "text": "A new production deployment was created.",
+                "text": "*${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully.' || 'failed.' }}",
                 "attachments": [
                   {
                     "color": "${{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
@@ -39,16 +39,16 @@ jobs:
                             "text": "*Status*"
                           },
                           {
-                            "type": "plain_text",
-                            "text": " "
+                            "type": "mrkdwn",
+                            "text": "*Commit*"
                           },
                           {
                             "type": "plain_text",
-                            "text": "${{ job.status }}"
+                            "text": "${{ job.status == 'success' && '#Completed' || 'Failed' }}"
                           },
                           {
-                            "type": "plain_text",
-                            "text": " "
+                            "type": "mrkdwn",
+                            "text": "`${{ github.sha }}`"
                           }
                         ]
                       }
