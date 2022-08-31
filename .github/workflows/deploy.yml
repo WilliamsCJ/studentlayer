@@ -47,7 +47,25 @@ jobs:
                             "type": "mrkdwn",
                             "text": "`${{ steps.sha.outputs.sha_short }}`"
                           }
-                        ]
+                        ],
+                        {
+                          "type": "context",
+                          "elements": [
+                            {
+                              "type": "mrkdwn",
+                              "text": "By `${{ github.event.schedule.user.login }}` on `${{ github.ref_name }}`"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "context",
+                          "elements": [
+                            {
+                              "type": "mrkdwn",
+                              "text": "{{ github.repository }}"
+                            }
+                          ]
+                        }
                       }
                     ]
                   }
