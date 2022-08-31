@@ -21,7 +21,6 @@ jobs:
           uses: slackapi/slack-github-action@v1.21.0
           env:
             SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
-            BRANCH_DETAILS: ${{ github.base_ref == 'main' && '`${{ github.head_ref }}` ➡️ `${{ github.base_ref }}`' || 'on `${{github.ref_name}}`'}}
           with:
             channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
             payload: |
@@ -61,7 +60,7 @@ jobs:
                           },
                           {
                             "type": "mrkdwn",
-                            "text": "${{ env.BRANCH_DETAILS }}"
+                            "text": ${{ github.base_ref == 'main' && '`${{ github.head_ref }}` ➡️ `${{ github.base_ref }}`' || 'on `${{github.ref_name}}`'}}
                           }
                         ]
                       },
