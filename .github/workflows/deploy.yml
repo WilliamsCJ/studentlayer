@@ -28,52 +28,51 @@ jobs:
                 "text": "${{ job.status == 'success' && '🟢' || '🔴' }} *${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully.' || 'failed.' }}",
                 "attachments": [
                   {
-                    "color": "${{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
+                    "color": "#f2c744",
                     "blocks": [
-                        {
-                          "type": "section",
-                          "fields": [
-                            {
-                              "type": "mrkdwn",
-                              "text": "*Status*"
-                            },
-                            {
-                              "type": "mrkdwn",
-                              "text": "*Commit*"
-                            },
-                            {
-                              "type": "plain_text",
-                              "text": "${{ job.status == 'success' && '#Completed' || 'Failed' }}"
-                            },
-                            {
-                              "type": "mrkdwn",
-                              "text": "`${{ steps.sha.outputs.sha_short }}`"
-                            }
-                          ],
-                        },
-                        {
-                          "type": "context",
-                          "elements": [
-                            {
-                              "type": "mrkdwn",
-                              "text": "By `${{ github.event.schedule.user.login }}` on `${{ github.ref_name }}`"
-                            }
-                          ]
-                        },
-                        {
-                          "type": "context",
-                          "elements": [
-                            {
-                              "type": "imgage",
-                              "image_url": "https://slack-imgs.com/?c=1&o1=wi32.he32.si&url=https%3A%2F%2Fslack.github.com%2Fstatic%2Fimg%2Ffavicon-neutral.png",
-                              "alt_text": "GitHub"
-                            }
-                            {
-                              "type": "mrkdwn",
-                              "text": "{{ github.repository }}"
-                            }
-                          ]
-                        }
+                      {
+                        "type": "section",
+                        "fields": [
+                          {
+                            "type": "mrkdwn",
+                            "text": "*Status*"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "*Commit*"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "${{ job.status == 'success' && 'Completed' || 'Failed' }}"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "`${{ steps.sha.outputs.sha_short }}`"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "context",
+                        "elements": [
+                          {
+                            "type": "mrkdwn",
+                            "text": "By `${{ github.event.schedule.user.login }}` on `${{ github.ref_name }}`"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "context",
+                        "elements": [
+                          {
+                            "type": "image",
+                            "image_url": "https://slack-imgs.com/?c=1&o1=wi32.he32.si&url=https%3A%2F%2Fslack.github.com%2Fstatic%2Fimg%2Ffavicon-neutral.png",
+                            "alt_text": "GitHub"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "{{ github.repository }}"
+                          }
+                        ]
                       }
                     ]
                   }
