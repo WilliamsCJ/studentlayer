@@ -56,7 +56,11 @@ jobs:
                         "elements": [
                           {
                             "type": "mrkdwn",
-                            "text": "By `${{ github.actor }}` on `${{ github.ref_name }}`"
+                            "text": "By `${{ github.actor }}` | "
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "`${{ github.head_ref }}` ➡️ `${{ github.base_ref }}`"
                           }
                         ]
                       },
