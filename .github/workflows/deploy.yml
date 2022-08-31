@@ -60,7 +60,7 @@ jobs:
                           },
                           {
                             "type": "mrkdwn",
-                            "text": "${{ github.base_ref == 'main' && '`${{ github.head_ref }}` ➡️ `${{ github.base_ref }}`' || 'on `${{github.ref_name}}`'}}"
+                            "text": "${{ github.base_ref == 'main' && '`${github.head_ref}` ➡️ `${github.base_ref}`' || 'on `${github.ref_name}`'}}"
                           }
                         ]
                       },
