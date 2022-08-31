@@ -28,7 +28,7 @@ jobs:
                 "text": "${{ job.status == 'success' && '🟢' || '🔴' }} *${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully.' || 'failed.' }}",
                 "attachments": [
                   {
-                    "color": "#f2c744",
+                    "color": "${{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
                     "blocks": [
                       {
                         "type": "section",
@@ -56,7 +56,7 @@ jobs:
                         "elements": [
                           {
                             "type": "mrkdwn",
-                            "text": "By `${{ github.event.schedule.user.login }}` on `${{ github.ref_name }}`"
+                            "text": "By `${{ github.actor }}` on `${{ github.ref_name }}`"
                           }
                         ]
                       },
@@ -70,7 +70,7 @@ jobs:
                           },
                           {
                             "type": "mrkdwn",
-                            "text": "{{ github.repository }}"
+                            "text": "${{ github.repository }}"
                           }
                         ]
                       }
