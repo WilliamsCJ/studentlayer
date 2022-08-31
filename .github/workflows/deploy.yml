@@ -56,7 +56,7 @@ jobs:
                         "elements": [
                           {
                             "type": "mrkdwn",
-                            "text": "By `${{ github.actor }}` | "
+                            "text": "By `${{ github.actor }}`"
                           },
                           {
                             "type": "mrkdwn",
