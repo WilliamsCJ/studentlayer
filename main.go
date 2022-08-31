@@ -13,6 +13,34 @@ type Service struct {
 	Store map[string]UniversityCollection
 }
 
+// GetHealth is a Server method that provides a handler function for the /health route.
+func (s *Service) GetHeath(w http.ResponseWriter, r *http.Request) {
+	log.Printf("Serving %s request for %s", r.Method, r.URL)
+
+	// Check that status method is GET
+	if r.Method != http.MethodGet {
+		// Set status code to 405 MethodNotAllowed
+		w.WriteHeader(http.StatusMethodNotAllowed)
+
+		// Write error in response body
+		resp := []byte("405 - Method not allowed")
+		bytes, err := w.Write(resp)
+		if err != nil || bytes != len(resp) {
+			panic(err)
+		}
+	}
+
+	// If alive, set status code to 200
+	w.WriteHeader(http.StatusOK)
+
+	// Write success response body
+	resp := []byte("OK\n")
+	bytes, err := w.Write(resp)
+	if err != nil || bytes != len(resp) {
+		panic(err)
+	}
+}
+
 // PostEmail is a Server method that provides a handler function for the /emails route.
 func (s *Service) PostEmail(w http.ResponseWriter, r *http.Request) {
 	log.Printf("Serving %s request for %s", r.Method, r.URL)
@@ -135,6 +163,7 @@ func main() {
 	server.LoadUniversities("data/universities_clean.json")
 
 	router.HandleFunc("/emails", server.PostEmail)
+	router.HandleFunc("/health", server.GetHeath)
 
 	log.Println("Running on localhost:8080...")
 	log.Fatal(http.ListenAndServe(":8080", router))
