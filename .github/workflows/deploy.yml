@@ -1,0 +1,84 @@
+name: Deploy to Fly.io
+on:
+  push:
+    branches:
+      - main
+env:
+  FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
+jobs:
+  deploy:
+      name: Deploy app
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v2
+        - name: Get commit SHA
+          id: sha
+          run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+        - uses: superfly/flyctl-actions/setup-flyctl@master
+        - run: flyctl deploy --remote-only
+        - name: Send Slack Notification
+          if: always()
+          uses: slackapi/slack-github-action@v1.21.0
+          env:
+            SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
+          with:
+            channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
+            payload: |
+              {
+                "text": "${{ job.status == 'success' && '🟢' || '🔴' }} *${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully' || 'failed to deploy' }}",
+                "attachments": [
+                  {
+                    "color": "${{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
+                    "blocks": [
+                      {
+                        "type": "section",
+                        "fields": [
+                          {
+                            "type": "mrkdwn",
+                            "text": "*Status*"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "*Commit*"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "${{ job.status == 'success' && 'Completed' || 'Failed' }}"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "`${{ steps.sha.outputs.sha_short }}`"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "context",
+                        "elements": [
+                          {
+                            "type": "mrkdwn",
+                            "text": "By `${{ github.actor }}`"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "${{ github.base_ref == 'main' && format('`{0}` ➡️ `{1}`', github.head_ref, github.base_ref) || format('`{0}`', github.ref_name) }}"
+                          }
+                        ]
+                      },
+                      {
+                        "type": "context",
+                        "elements": [
+                          {
+                            "type": "image",
+                            "image_url": "https://slack-imgs.com/?c=1&o1=wi32.he32.si&url=https%3A%2F%2Fslack.github.com%2Fstatic%2Fimg%2Ffavicon-neutral.png",
+                            "alt_text": "GitHub"
+                          },
+                          {
+                            "type": "mrkdwn",
+                            "text": "${{ github.repository }}"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
