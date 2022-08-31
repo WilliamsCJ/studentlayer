@@ -1,8 +1,8 @@
 name: Deploy to Fly.io
-on: [push]
-  # push:
-  #   branches:
-  #     - main
+on:
+  push:
+    branches:
+      - main
 env:
   FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
 jobs:
@@ -60,7 +60,7 @@ jobs:
                           },
                           {
                             "type": "mrkdwn",
-                            "text": "${{ github.base_ref == 'main' && format('`{0}` ➡️ `{1}`', github.head_ref, github.base_ref) || format('on `{0}`', github.ref_name) }}"
+                            "text": "${{ github.base_ref == 'main' && format('`{0}` ➡️ `{1}`', github.head_ref, github.base_ref) || format('`{0}`', github.ref_name) }}"
                           }
                         ]
                       },
