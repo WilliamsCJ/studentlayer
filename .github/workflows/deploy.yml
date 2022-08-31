@@ -26,7 +26,7 @@ jobs:
             channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
             payload: |
               {
-                "text": "${{ job.status == 'success' && '🟢' || '🔴' }} *${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully.' || 'failed.' }}",
+                "text": "${{ job.status == 'success' && '🟢' || '🔴' }} *${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully' || 'failed to deploy' }}",
                 "attachments": [
                   {
                     "color": "${{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
