@@ -11,6 +11,9 @@ jobs:
       runs-on: ubuntu-latest
       steps:
         - uses: actions/checkout@v2
+        - name: Get commit SHA
+          id: sha
+          run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
         - uses: superfly/flyctl-actions/setup-flyctl@master
         - run: flyctl deploy --remote-only
         - name: Send Slack Notification
@@ -22,17 +25,11 @@ jobs:
             channel-id: ${{ secrets.SLACK_CHANNEL_ID }}
             payload: |
               {
-                "text": "*${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully.' || 'failed.' }}",
+                "text": "${{ job.status == 'success' && '🟢' || '🔴' }} *${{ github.event.head_commit.message }}* ${{ job.status == 'success' && 'deployed successfully.' || 'failed.' }}",
                 "attachments": [
                   {
                     "color": "${{ job.status == 'success' && '#22bb33' || '#bb2124' }}",
                     "blocks": [
-                      {
-                        "type": "section",
-                        "text": {
-                          "text": "Details:",
-                          "type": "mrkdwn"
-                        },
                         "fields": [
                           {
                             "type": "mrkdwn",
@@ -48,7 +45,7 @@ jobs:
                           },
                           {
                             "type": "mrkdwn",
-                            "text": "`${{ github.sha }}`"
+                            "text": "`${{ steps.sha.outputs.sha_short }}`"
                           }
                         ]
                       }
